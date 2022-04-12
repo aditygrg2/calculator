@@ -186,6 +186,9 @@ document.getElementById('9').addEventListener('click',function(){
 document.getElementById('.').addEventListener('click',function(){
     inputBox.innerText += ".";
 })
+document.getElementById('0').addEventListener('click',function(){
+    inputBox.innerText += 0;
+})
 var AC = document.getElementById('AC').addEventListener('click',function(){
     inputBox.innerText = "";
     sideSign.innerHTML= "";
